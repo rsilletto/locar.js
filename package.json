@@ -15,7 +15,8 @@
   },
   "scripts": {
     "build": "vite build && npm pack",
-    "makedocs": "jsdoc -r lib -d docs/api"
+    "makedocs": "jsdoc -r lib -d docs/api",
+    "dev": "vite dev"
   },
   "devDependencies": {
     "jsdoc": "^4.0.4",
